@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(120, 118, 118);
+    background-image: url(RoadMechanic1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    
+    
+}
+h2{
+    font-weight: bold;
+    color:black;
+    background-color: rgb(41, 41, 186);
+    border: 5px black solid;
+    border-radius: 15px;
+   font-size: 2rem;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    justify-content: center;
+    position: absolute;
+    margin-top:500px 50px;
+    cursor: pointer;
+
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color: rgb(22, 22, 214);
+    font-weight: bolder;
+    height: 150px;
+    width: 350px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: 2px black solid;
+    text-align: center;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 75px;
+   padding-bottom: 15px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    justify-content: center;
+    font-family: monospace;
+}
+#enquiry{
+    position: absolute;
+    margin-top: 500px;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border-radius: 2px black solid;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+
+#book{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 250px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-radius: 2px black solid;
+   cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#enquiry:hover{
+    color: red;
+    background-color: blue;
+}
+
+#book:hover{
+background-color: blue;
+color: tomato;
+}
+
+.modal{
+    display: none;
+    position: fixed; 
+    
+    overflow: auto;
+
+    
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#modal-content{
+display: none;
+z-index: ;
+background-color: yellow;
+color: tomato;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+font-weight: bold;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.close:hover,
+.close:focus{
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+#click{
+    font-size: 1.2rem;
+}
